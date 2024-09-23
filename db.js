@@ -1,5 +1,8 @@
 const mongoose = require("mongoose");
+<<<<<<< HEAD
 console.log("conneted to")
+=======
+>>>>>>> a7fd127c11fe54ea2e9a2c4fb68b2727fd5149c6
 
 
 const Schema = mongoose.Schema;
@@ -37,7 +40,7 @@ const adminModel = mongoose.model("admin", adminSchema);
 const courseModel = mongoose.model("course", courseSchema);
 const purchaseModel = mongoose.model("purchase", purchaseSchema);
 
-module.export = {
+module.exports = {
     userModel,
     adminModel,
     courseModel,
